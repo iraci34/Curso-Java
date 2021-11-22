@@ -8,7 +8,7 @@ public class PriceUpdate implements Consumer<Product> {
 
 	@Override
 	public void accept(Product p) {
-		p.setPrice(p.getPrice() * 1.1);
+		p.setPrice(p.getPrice() * 1.1); //adiciona 10% ao preço
 		
 	}
 
