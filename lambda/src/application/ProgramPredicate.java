@@ -6,7 +6,7 @@ import java.util.Locale;
 
 import entities.Product;
 
-public class Predicate {
+public class ProgramPredicate {
 
 	public static void main(String[] args) {
 
@@ -18,7 +18,10 @@ public class Predicate {
 		list.add(new Product("Tablet", 350.50));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.removeIf(Product::nonStaticProductPredicate);
+		double min = 100.0;
+		
+		
+		list.removeIf(p -> p.getPrice() >= min);
 		
 		for (Product p : list) {
 			System.out.println(p);
