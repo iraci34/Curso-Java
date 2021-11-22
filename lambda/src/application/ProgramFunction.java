@@ -21,7 +21,7 @@ public class ProgramFunction {
 		
 		/*Cria uma nova lista de Strings com o "map"
 		 aplicando nomes em caixa alta em todos os itens da lista*/
-        List<String> names = list.stream().map(Product::staticUpperCaseName).collect(Collectors.toList());
+        List<String> names = list.stream().map(Product::nonStaticUpperCaseName).collect(Collectors.toList());
 		
         names.forEach(System.out::println);
 		
