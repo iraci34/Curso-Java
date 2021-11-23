@@ -10,6 +10,8 @@ import db.DB;
 public class Program {
 
 	public static void main(String[] args) {
+		
+		//Demo recuperar dados
 
 		Connection conn = null;
 		Statement st = null;
