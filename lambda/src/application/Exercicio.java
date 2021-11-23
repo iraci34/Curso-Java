@@ -41,14 +41,16 @@ public class Exercicio {
 		
 			System.out.println("Average price: " + String.format("%.2f", avg));
 			
+			// Compara as Strings independente de letras maiúsculas ou minúsculas
 			Comparator<String> comp = (s1, s2) -> s1.toUpperCase().compareTo(s2.toUpperCase());
 			
 			List<String> names = list.stream()
-					.filter(p -> p.getPrice() < avg)
-					.map(p -> p.getName()).sorted(comp.reversed())
-					.collect(Collectors.toList());
+					.filter(p -> p.getPrice() < avg)   //preço menor que a média
+					.map(p -> p.getName())             //cria uma listagem de nomes
+					.sorted(comp.reversed())           //ordena em ordem decrescente
+					.collect(Collectors.toList());     //adiciona em uma lista
 			
-			names.forEach(System.out::println);			
+			names.forEach(System.out::println);			//Printa na tela
 			
 						
 		} catch (IOException e) {
