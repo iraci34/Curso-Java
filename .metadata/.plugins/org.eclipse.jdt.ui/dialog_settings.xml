@@ -2,8 +2,10 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-11"/>
-	<item key="org.eclipse.jdt.ui.last.external.project" value="/Users/iracineto/Documents/Github"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="/Applications/java-libs/jdbc-connectors"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="/Applications/workspace/ws-jdk"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="/Applications/java-libs/javafx-sdk-17.0.1/lib"/>
+	<item key="UserLibraryLoadSaveDialog.size" value="535,442"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -115,6 +117,16 @@
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="8"/>
+		<item key="index" value="10"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="65"/>
+		<item key="DIALOG_Y_ORIGIN" value="170"/>
+		<item key="DIALOG_WIDTH" value="654"/>
+		<item key="DIALOG_HEIGHT" value="288"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>
